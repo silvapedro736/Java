@@ -212,7 +212,7 @@ public class SuperBool {
 
         if (op.equals("xor")){
 
-            String c = new String(String.valueOf(((A && B) | !(A|B))));
+            String c = new String(String.valueOf(((A && B) | !(A | B))));
 
             ans.setText(c);
 
